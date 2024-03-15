@@ -188,6 +188,7 @@ restartButton.addEventListener("click",()=>{
 })
 
 startButton.addEventListener("click",()=>{
-    init();
+    playground.innerHTML = "";
     startText.style.display = "none"
+    init();
 })
